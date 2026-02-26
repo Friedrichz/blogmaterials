@@ -1,0 +1,22 @@
+{
+  "scraper": {
+    "urls": [
+      "https://www.citadelsecurities.com/news-and-insights/"
+    ],
+    "article_url_pattern": "/news-and-insights/",
+    "check_interval_hours": 24
+  },
+  "email": {
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "sender_email": "your-email@gmail.com",
+    "sender_password": "",
+    "recipients": [
+      "recipient@example.com"
+    ],
+    "subject_prefix": "[Citadel Insights]"
+  },
+  "storage": {
+    "seen_articles_file": "seen_articles.json"
+  }
+}
